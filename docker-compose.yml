@@ -1,3 +1,6 @@
+#
+# Projet Stack Docker by Dorian
+#
 version: '3'
 
 networks:

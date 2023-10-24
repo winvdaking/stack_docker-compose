@@ -40,7 +40,7 @@ docker-compose up -d
 Une fois que les conteneurs sont en cours d'exécution, vous pouvez accéder aux services suivants depuis votre navigateur :
 - Strapi: http://localhost:1337
 - MongoDB (utilisé par Strapi) : mongodb://localhost:27017
-- MongoExpress: http://localhost:8081
+- MongoExpress: http://localhost:8082
 
 ### Maintenance
 
@@ -62,3 +62,6 @@ Ce projet est livré avec une configuration par défaut. Vous pouvez personnalis
 Licence
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
+
+---
+[@Dorian](https://www.github.com/winvdaking)
