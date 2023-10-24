@@ -12,7 +12,7 @@ Ce référentiel GitHub contient les fichiers Docker Compose nécessaires pour d
 Clonez ce référentiel sur votre machine locale.
 
 ```bash
-git clone https://github.com/votre-utilisateur/stack-docker.git
+git clone https://github.com/winvdaking/stack-docker.git
 ```
 
 Accédez au répertoire du projet.
