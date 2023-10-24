@@ -24,7 +24,7 @@ cd stack-docker
 Créez un fichier .env à partir du modèle fourni (env.example) et configurez les variables d'environnement selon vos besoins.
 
 ```bash
-cp env.example .env
+cp env.exemple .env
 ```
 
 Mettez à jour les valeurs dans le fichier .env pour correspondre à votre configuration.
