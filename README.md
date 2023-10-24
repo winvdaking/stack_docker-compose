@@ -1,61 +1,62 @@
 # Projet Docker Stack : Strapi, MongoDB et MongoExpress
 
 Ce référentiel GitHub contient les fichiers Docker Compose nécessaires pour déployer un environnement de développement complet basé sur Docker, comprenant Strapi, MongoDB et MongoExpress.
-Prérequis
 
-    Docker doit être installé sur votre système.
-    Docker Compose doit également être installé.
+#### Prérequis :
 
-Configuration
+- Docker doit être installé sur votre système.
+- Docker Compose doit également être installé.
 
-    Clonez ce référentiel sur votre machine locale.
+### Configuration
 
-bash
+Clonez ce référentiel sur votre machine locale.
 
+```bash
 git clone https://github.com/votre-utilisateur/stack-docker.git
+```
 
-    Accédez au répertoire du projet.
+Accédez au répertoire du projet.
 
-bash
-
+```bash
 cd stack-docker
+```
 
-    Créez un fichier .env à partir du modèle fourni (env.example) et configurez les variables d'environnement selon vos besoins.
+Créez un fichier .env à partir du modèle fourni (env.example) et configurez les variables d'environnement selon vos besoins.
 
-bash
-
+```bash
 cp env.example .env
+```
 
-    Mettez à jour les valeurs dans le fichier .env pour correspondre à votre configuration.
+Mettez à jour les valeurs dans le fichier .env pour correspondre à votre configuration.
 
-Utilisation
+### Utilisation
 
-    Démarrez le stack Docker en utilisant Docker Compose.
+Démarrez le stack Docker en utilisant Docker Compose.
 
-bash
-
+```bash
 docker-compose up -d
+```
 
-    Une fois que les conteneurs sont en cours d'exécution, vous pouvez accéder aux services suivants depuis votre navigateur :
-        Strapi: http://localhost:1337
-        MongoDB (utilisé par Strapi) : mongodb://localhost:27017
-        MongoExpress: http://localhost:8081
+Une fois que les conteneurs sont en cours d'exécution, vous pouvez accéder aux services suivants depuis votre navigateur :
+- Strapi: http://localhost:1337
+- MongoDB (utilisé par Strapi) : mongodb://localhost:27017
+- MongoExpress: http://localhost:8081
 
-Maintenance
+### Maintenance
 
-    Pour arrêter le stack Docker, utilisez la commande suivante :
+Pour arrêter le stack Docker, utilisez la commande suivante :
 
-bash
-
+```bash
 docker-compose down
+```
 
-    Pour afficher les journaux des conteneurs, utilisez la commande suivante :
+Pour afficher les journaux des conteneurs, utilisez la commande suivante :
 
-bash
 
+```bash
 docker-compose logs
-
-Personnalisation
+```
+### Personnalisation
 
 Ce projet est livré avec une configuration par défaut. Vous pouvez personnaliser davantage le fichier docker-compose.yml et le fichier .env en fonction de vos besoins spécifiques.
 Licence
